@@ -121,3 +121,10 @@ numis = [1,2,3,4,5]
 
 print(sum(numis)/len(numis))
 
+price = ["20191115", 100, 130, 140, 150, 160, 170]
+
+print(price[1:])
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+print(numbers[::2])
+print(numbers[1::2])
