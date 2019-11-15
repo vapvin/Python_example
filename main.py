@@ -134,3 +134,11 @@ interest = ["삼성전자", "LG전자", "Naver", "SK하이닉스", "미래에셋
 
 print(" ".join(interest))
 print("\n".join(interest))
+
+stringd = "삼성전자/LG전자/Naver"
+interest2 = [stringd[0:4], stringd[5:9], stringd[10:15]]
+print(interest2)
+
+stringds = "삼성전자/LG전자/Naver/SK하이닉스/미래에셋대우"
+interest2 = [stringds[0:4], stringds[5:9], stringds[10:15], stringds[16:22], stringds[23:29]]
+print(interest2)
