@@ -142,3 +142,22 @@ print(interest2)
 stringds = "삼성전자/LG전자/Naver/SK하이닉스/미래에셋대우"
 interest2 = [stringds[0:4], stringds[5:9], stringds[10:15], stringds[16:22], stringds[23:29]]
 print(interest2)
+
+interest_0 = ['삼성전자', 'LG전자', 'SK Hynix']
+interest_1 = interest_0
+interest_1[0] = 'Naver'
+print(interest_0)
+
+interest_1 = interest_0[:2]
+interest_1[0] = 'Naver'
+print(interest_0)
+
+my_variable = ()
+t = (1, 2, 3)
+
+
+#투플은 값을 변경 할 수 없다.
+
+my_tuple = (1,)
+
+print(type(my_tuple))
