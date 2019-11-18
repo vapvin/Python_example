@@ -306,3 +306,11 @@ else:
 print("5")
 
 # 첫번째 if문이 True임으로 안쪽의 if False를 무시후 else를 실한한 후에 밖의 5를 출력한다.
+
+user_data = input("입력해주세요")
+
+print(user_data*2)
+
+user_num = input("숫자를 입력하세요")
+
+print(int(user_num)+10)
