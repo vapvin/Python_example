@@ -106,18 +106,19 @@ lang2 = ["Python", "Go", "C#"]
 langs = lang1 + lang2
 print(langs)
 
-nums = [1,2,3,4,5,6,7]
+nums = [1, 2, 3, 4, 5, 6, 7]
 
 print("max:", max(nums))
 print("min:", min(nums))
 
 print(sum(nums))
 
-cook = ["피자", "김밥", "만두", "양념치킨", "족발", "피자", "김치만두", "쫄면", "쏘세지", "라면", "팥빙수", "김치전"]
+cook = ["피자", "김밥", "만두", "양념치킨", "족발", "피자",
+        "김치만두", "쫄면", "쏘세지", "라면", "팥빙수", "김치전"]
 
 print(len(cook))
 
-numis = [1,2,3,4,5]
+numis = [1, 2, 3, 4, 5]
 
 print(sum(numis)/len(numis))
 
@@ -125,7 +126,7 @@ price = ["20191115", 100, 130, 140, 150, 160, 170]
 
 print(price[1:])
 
-numbers = [1,2,3,4,5,6,7,8,9,10]
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(numbers[::2])
 print(numbers[1::2])
 print(numbers[::-1])
@@ -140,7 +141,8 @@ interest2 = [stringd[0:4], stringd[5:9], stringd[10:15]]
 print(interest2)
 
 stringds = "삼성전자/LG전자/Naver/SK하이닉스/미래에셋대우"
-interest2 = [stringds[0:4], stringds[5:9], stringds[10:15], stringds[16:22], stringds[23:29]]
+interest2 = [stringds[0:4], stringds[5:9],
+             stringds[10:15], stringds[16:22], stringds[23:29]]
 print(interest2)
 
 interest_0 = ['삼성전자', 'LG전자', 'SK Hynix']
@@ -156,8 +158,29 @@ my_variable = ()
 t = (1, 2, 3)
 
 
-#투플은 값을 변경 할 수 없다.
+# 투플은 값을 변경 할 수 없다.
 
 my_tuple = (1,)
 
 print(type(my_tuple))
+
+scores = [8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]
+
+*valid_score, a, b = scores
+
+# *valid_score, _, _ = scores
+
+print(valid_score)
+
+_, _, *valid_score2 = scores
+
+print(valid_score2)
+
+_, *valid_score2, _ = scores
+
+print(valid_score2)
+
+
+temp = {
+
+}
