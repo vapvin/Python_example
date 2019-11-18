@@ -237,3 +237,72 @@ print(dict_keys)
 dict_val = list(icecream.values())
 
 print(dict_val)
+
+all_val = sum(dict_val)
+
+print(all_val)
+
+new_product = {'팥빙수': 2700, '아맛나': 1000}
+
+icecream.update(new_product)
+
+print(icecream)
+
+keys = ("apple", "pear", "peach")
+vals = (300, 250, 400)
+
+result = dict(zip(keys, vals))
+
+print(result)
+
+date = ['09/05', '09/06', '09/07', '09/08', '09/09']
+close_price = [10500, 10300, 10100, 10800, 11000]
+
+result = dict(zip(date, close_price))
+
+print(result)
+
+# 파이썬에서 True 혹은 False를 갖는 데이터 타입은 무엇인가? Bool
+
+print(3 == 5)  # False
+
+print(3 < 5)  # True
+
+x = 4
+print(1 < x < 5)  # True
+
+print((3 == 3) and (4 != 3))  # True
+
+# print(3 => 4)  3은 4보다 크거나 같지 않기때문으 False로 오류를 출력
+
+if 4 < 3:
+    print("Hello World")
+# 위 조건문은 조건식이 거짓임으로 실행되지 않는다.
+
+if 4 < 3:
+    print("Hello Wolrd")
+else:
+    print("Hi, there.")
+
+# 위 조건문은 if문이 거짓임으로 else문이 실행되어 진다.
+
+if True:
+    print("1")
+    print("2")
+else:
+    print("3")
+print("4")
+
+# if문이 항상 참값임으로 1과 2가 순서대로 출력 후 else는 무시되어 진뒤 조건문 밖의 4가 출력된다.
+
+if True:
+    if False:
+        print("1")
+        print("2")
+    else:
+        print("3")
+else:
+    print("4")
+print("5")
+
+# 첫번째 if문이 True임으로 안쪽의 if False를 무시후 else를 실한한 후에 밖의 5를 출력한다.
