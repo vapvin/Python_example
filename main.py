@@ -342,4 +342,23 @@ if user_time[3:] == "00" :
 else:
     print("정각이 아닙니다.")
 
+fruit = ['사과', '포도', '홍시']
+
+user_fav = input("좋이하는 과일은 무엇입니까?? ")
+
+if user_fav in fruit:
+    print("정답입니다.")
+else:
+    print("오답입니다.")
+
+warn_investment_list = ["Microsoft", "Google", "Naver", "Kakao", "Samsung", "LG"]
+
+user_inv = input("투자종목:")
+
+if user_inv in warn_investment_list:
+    print("투자위험종목")
+else:
+    print("투자안전종목")
+
+
 
