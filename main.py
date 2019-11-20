@@ -314,3 +314,24 @@ print(user_data*2)
 user_num = input("숫자를 입력하세요")
 
 print(int(user_num)+10)
+
+use_num = int(input("숫자를 입력하세요. 홀/짝을 판별합니다."))
+
+if use_num % 2 == 0:
+    print("짝수")
+else:
+    print("홀수")
+
+users_inputs = int(input("숫자를 입력해주세요."))
+
+if users_inputs + 20 > 255:
+    print(255)
+elif users_inputs + 20 < 0:
+    print(0)
+else:
+    print(users_inputs+20)
+
+pixel = int(input("입력깂 \b"))
+
+print("출력값:", max(pixel - 20, 0))
+
