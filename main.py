@@ -360,5 +360,22 @@ if user_inv in warn_investment_list:
 else:
     print("투자안전종목")
 
+fruits = {
+    "봄": "딸기",
+    "여름": "토마토",
+    "가을": "사과"
+}
+
+user_season = input("제가 좋아하는 과일은 무엇입니까?")
+
+if user_season in fruits.key():
+    print("정답입니다.")
+else:
+    print("틀렸습니다")
+
+if user_season in fruits.values():
+    print("정답입니다.")
+else:
+    print("틀렸습니다")
 
 
