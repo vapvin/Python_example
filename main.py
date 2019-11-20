@@ -335,3 +335,11 @@ pixel = int(input("입력깂 \b"))
 
 print("출력값:", max(pixel - 20, 0))
 
+user_time = input("현재시간:")
+
+if user_time[3:] == "00" :
+    print("정각입니다.")
+else:
+    print("정각이 아닙니다.")
+
+
