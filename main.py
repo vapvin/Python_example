@@ -365,17 +365,29 @@ fruits = {
     "여름": "토마토",
     "가을": "사과"
 }
+#
+# user_season = input("제가 좋아하는 과일은 무엇입니까?")
+#
+# if user_season in fruits.key():
+#     print("정답입니다.")
+# else:
+#     print("틀렸습니다")
+#
+# if user_season in fruits.values():
+#     print("정답입니다.")
+# else:
+#     print("틀렸습니다")
 
-user_season = input("제가 좋아하는 과일은 무엇입니까?")
+user_score = int(input("학점을 입력해주세요."))
 
-if user_season in fruits.key():
-    print("정답입니다.")
+if 81 <= user_score <= 100:
+    print("grade is A")
+elif 61 <= user_score <= 80:
+    print("grade is B")
+elif 41 <= user_score <= 60:
+    print("grade is C")
+elif 21 <= user_score <= 40:
+    print("grade is D")
 else:
-    print("틀렸습니다")
-
-if user_season in fruits.values():
-    print("정답입니다.")
-else:
-    print("틀렸습니다")
-
+    print("grad is E")
 
