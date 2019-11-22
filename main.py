@@ -479,3 +479,13 @@ if int(btc['opening_price']) + volatility > int(btc['max_price']):
 else:
     print('하락장')
 
+for a in ["가", "나", "다", "라"]:
+    print(a)
+
+for c in ["사과", "귤", "수박"]:
+    print(c)
+
+for d in ['사과', '귤', '수박']:
+    print(d)
+    print("--")
+
