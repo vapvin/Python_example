@@ -391,22 +391,35 @@ elif 21 <= user_score <= 40:
 else:
     print("grad is E")
 
-user_in = input("입력:").split()
+# user_in = input("입력:").split()
+#
+# amount = user_in[0]
+# currency = user_in[1]
+#
+# if currency == "달라":
+#     ratio = 1167
+# elif currency == "엔":
+#     ratio = 1.096
+# elif currency == "유로":
+#     ratio = 1268
+# else:
+#     ratio = 171
 
-amount = user_in[0]
-currency = user_in[1]
-
-if currency == "달라":
-    ratio = 1167
-elif currency == "엔":
-    ratio = 1.096
-elif currency == "유로":
-    ratio = 1268
-else:
-    ratio = 171
-
-print(ratio * int(amount), "원")
+# print(ratio * int(amount), "원")
 
 print("Hello World")
 
 
+num1 = int(input("input number1:"))
+num2 = int(input("input number2:"))
+num3 = int(input("input number3:"))
+
+if num1 > num2:
+    max_num = num1
+else:
+    max_num = num2
+
+if num3 > max_num:
+    max_num = num3
+
+print(max_num)
