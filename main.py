@@ -514,3 +514,10 @@ for price in prices:
 
 for food in menu:
     print(food[::1])
+
+my_list = ['가', '나', '다', '라']
+
+for val in my_list[1:]:
+    if val != "가":
+        print(val)
+
