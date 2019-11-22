@@ -489,3 +489,8 @@ for d in ['사과', '귤', '수박']:
     print(d)
     print("--")
 
+menu = ['김밥', '라면', '튀김']
+
+for i in menu:
+    print("오늘의 메뉴", i)
+
