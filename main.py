@@ -460,3 +460,22 @@ if int(reg_nums[8:9]) <= 8:
     print("서울입니다.")
 else:
     print("서울이 아닙니다.")
+
+reg_numd = input("주민등록번호: ")
+
+rem = sum % 11
+
+valid_num 11 -rem
+
+if int(reg_num[13]) == valid_num:
+    print("유효한 주민등록번호입니다.")
+else:
+    print("유효하지 않은 주민등록번호입니다.")
+
+volatility = int(btc['max_price']) - int(btc['min_price'])
+
+if int(btc['opening_price']) + volatility > int(btc['max_price']):
+    print('상승장')
+else:
+    print('하락장')
+
