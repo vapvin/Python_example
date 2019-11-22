@@ -494,3 +494,23 @@ menu = ['김밥', '라면', '튀김']
 for i in menu:
     print("오늘의 메뉴", i)
 
+# main To sub
+
+for food in menu:
+    print("오늘의 메뉴"+food)
+
+for ticker in portfolio:
+    print(ticker,"보유중")
+
+for pet in pets:
+    print(pet,len(pet))
+
+for price in prices:
+    print(price + 10)
+
+for price in prices:
+    temp = price.replace(',', '')
+    print(int(temp))
+
+for food in menu:
+    print(food[::1])
