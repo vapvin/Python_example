@@ -423,3 +423,40 @@ if num3 > max_num:
     max_num = num3
 
 print(max_num)
+
+# max_num = max(num1,num2,num3)
+# print(max_num)
+
+phone_numbers = input("휴대전화 번호 입력 : ")
+
+if phone_numbers[0:3] == "011":
+    print("당신은 SKT 사용자 입니다.")
+elif phone_numbers[0:3] == "016":
+    print("당신은 KT 사용자 입니다.")
+elif phone_numbers[0:3] == "019":
+    print('당신은 LGT 사용자입니다.')
+else:
+    print("당신은 알 수 없는 사용자 입니다.")
+
+zipcode = input("우편번호 : ")
+
+if zipcode[2] in "012":
+    print("강북구")
+elif zipcode[2] in "345":
+    print("도봉구")
+else:
+    print('노원구')
+
+reg_num = input("주민등록번호 :")
+
+if reg_num[7] in ['1','3']:
+    print("남자")
+else:
+    print("여자")
+
+reg_nums = input("주민등록번호: ")
+
+if int(reg_nums[8:9]) <= 8:
+    print("서울입니다.")
+else:
+    print("서울이 아닙니다.")
