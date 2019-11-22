@@ -521,3 +521,9 @@ for val in my_list[1:]:
     if val != "가":
         print(val)
 
+for val in my_list[::2]:
+    print(val)
+
+
+for val in my_list[1::2]:
+    print(val)
