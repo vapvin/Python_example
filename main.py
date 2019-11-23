@@ -570,3 +570,36 @@ for val in my_list:
     else:
         print(val.upper(), end="")
 
+file_list = ['hello.py', 'ex01.py', 'ch02.py', 'intro.hwp']
+
+for file in file_list:
+    print(file.split()[0])
+
+
+for file in filenames :
+    if file.endswith("h") :
+        print(file)
+
+for file in filenames :
+    extension = file.split('.')[1]
+    if extension == "h" or extension == "c" :
+        print(file)
+
+new_list = []
+for val in my_list:
+    if val > 0:
+        new_list.append(val)
+
+upper_list = []
+for val in my_list :
+    if val.isupper() :
+        upper_list.append(val)
+
+sole_list = []
+for val in my_list :
+    if val not in sole_list:
+        sole_list.append(val)
+
+result = 0
+for val in my_list :
+    result = result + val
