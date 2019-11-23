@@ -527,3 +527,32 @@ for val in my_list[::2]:
 
 for val in my_list[1::2]:
     print(val)
+
+
+for val in my_list[::-1]:
+    print(val)
+
+for val in my_list:
+    if val < 0:
+        print(val)
+
+for val in my_list:
+    if val % 3 == 0:
+        print(val)
+
+for val in my_list:
+    if len(val) >= 3:
+        print(val)
+
+for val in my_list:
+    if val > 5 and val < 10:
+        print(val)
+
+for val in my_list:
+    if val > 10 and val < 20 and val % 3 == 0:
+        print(val)
+
+for val in my_list:
+    if val % 3 == 0 and val % 4 == 0:
+        print(val)
+
