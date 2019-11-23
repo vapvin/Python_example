@@ -603,3 +603,38 @@ for val in my_list :
 result = 0
 for val in my_list :
     result = result + val
+
+
+def print_coin() :
+    print ("비트코인")
+
+
+print_coin()
+
+for i in range(100) :
+    print_coin ()
+
+def print_coins () :
+    for i in range(100) :
+        print ("비트코인")
+
+
+def message() :
+    print("B")
+
+print("A")
+print("C")
+message()
+
+
+def messages1() :
+    print("B")
+
+def messages2() :
+    print("D")
+
+print("A")
+print("C")
+message1()
+print("E")
+message2()
