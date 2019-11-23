@@ -556,3 +556,17 @@ for val in my_list:
     if val % 3 == 0 and val % 4 == 0:
         print(val)
 
+for val in my_list:
+    if val.isupper():
+        print(val)
+
+for val in my_list:
+    if not val.isupper():
+        print(val)
+
+for val in my_list:
+    if val.isupper():
+        print(val.lower(), end="")
+    else:
+        print(val.upper(), end="")
+
