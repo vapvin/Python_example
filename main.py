@@ -638,3 +638,14 @@ print("C")
 message1()
 print("E")
 message2()
+
+def messages3():
+    print("I love You")
+    user_anser = input("입력")
+    if user_anser == "Me too":
+        print(" Thanks")
+    else:
+        print("Fxxx")
+
+messages3()
+
