@@ -663,9 +663,42 @@ class Flight:
     def number(self):
         return 'SN060'
 
-class Flight:
+class Flight1:
     def __init__(self, number):
         self._number = number
 
     def number(self):
         return self._number
+
+class Flight2:
+
+    def __init__(self, number):
+        if not number[:2].isalpha():
+            raise ValueError("첫 두글자가 알파벳이 아닙니다.")
+        if not number[:2].isupper():
+            raise ValueError("첫 두글자가 대문자가 아닙니다.")
+        if not number[2:].isdigit():
+            raise ValueError("세번째 글자 이상이 양의 숫자가 아닙니다.")
+        self.__number = number
+
+    def number(self):
+        return self.__number
+
+class Korea:
+
+    def __init__(self, name,population, captial):
+        self.name = name
+        self.population = population
+        self.capital = captial
+
+    def show(self):
+        print(
+            """
+            국가의 이름은 {} 입니다.
+            국가의 인구는 {} 입니다.
+            국가의 수도는 {} 입니다.
+            """.format(self.name, self.population, self.capital)
+        )
+
+    def show(self, abc):
+        print('abc :', abc)
