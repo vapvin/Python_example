@@ -714,3 +714,5 @@ class Flight3:
 
     def add_class_attr(self, number):
         Flight.class_attr.append(number)
+
+        dddㅇㅇㅇㅇddddGFSRGWRTrtwrtwrw
