@@ -391,6 +391,24 @@ elif 21 <= user_score <= 40:
 else:
     print("grad is E")
 
+user_inputs = int(input("숫자를 입력해 주세요"))
+
+if user_inputs > 100 or user_inputs < 0:
+    print("잘 못 입력하셨습니다.")
+    user_inputs = int(input("다시 입력해 주세요"))
+elif 81 <= user_inputs <=100:
+    print("grade is A")
+elif 61 <= user_inputs <= 80:
+    print("grade is B")
+elif 41 <= user_inputs <= 60:
+    print("grade is C")
+elif 21 <= user_inputs <= 40:
+    print("grade is D")
+else:
+    print("grade is E")
+
+
+
 # user_in = input("입력:").split()
 #
 # amount = user_in[0]
@@ -437,6 +455,10 @@ elif phone_numbers[0:3] == "019":
     print('당신은 LGT 사용자입니다.')
 else:
     print("당신은 알 수 없는 사용자 입니다.")
+
+
+if phone_numbers[0:3] == "011":
+    print("당신은 SKT 사용자 입니다.")
 
 zipcode = input("우편번호 : ")
 
