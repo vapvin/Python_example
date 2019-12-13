@@ -398,8 +398,8 @@ if user_inputs > 100 or user_inputs < 0:
     user_inputs = int(input("다시 입력해 주세요"))
 elif 81 <= user_inputs <=100:
     print("grade is A")
-elif 61 <= user_inputs <= 80:
-    print("grade is B")
+elif 61 <= user_inputs <= 80:qqqqqqqqqqqqqq
+    print("grade is B")     1`
 elif 41 <= user_inputs <= 60:
     print("grade is C")
 elif 21 <= user_inputs <= 40:
@@ -407,12 +407,12 @@ elif 21 <= user_inputs <= 40:
 else:
     print("grade is E")
 
-
+qqqqqqqqqqqqqqqqq
 
 # user_in = input("입력:").split()
 #
 # amount = user_in[0]
-# currency = user_in[1]
+# currency = user_in[1]q
 #
 # if currency == "달라":
 #     ratio = 1167
