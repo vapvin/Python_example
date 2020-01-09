@@ -749,7 +749,6 @@
 #
 #     def add_cass_attr(self, number):
 #         Flight.class_attr.append(number)
-#
-#
+
 
 
